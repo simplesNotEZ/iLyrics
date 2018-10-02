@@ -1,0 +1,426 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1));
+    margin-bottom: 0;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+
+.psuedoNav {
+    display: flex;
+    justify-content: space-between;
+    width: 15vw;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(to right, rgba(255, 242, 204,1), rgba(255, 242, 204,0.3));
+    padding-top: 6vw;
+    padding-bottom: 3vw;
+}
+
+.brochureMain {
+    background-image: url("singer.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35vw;
+}
+
+.appDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 15vw;
+    padding-top: .5vw;
+    padding-right: -2vw;
+    padding-bottom: 2vw;
+    padding-left: 2vw;
+    background-color: rgba(255, 242, 204, .6);
+    height: 8vw;
+}
+
+.descriptionP {
+    line-height: 175%;
+}
+
+.goFerLyrics {
+    font-weight: 600;
+}
+
+.main-h1 {
+    font-size: 5vw;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+header h2 {
+    margin: 0;
+    padding: 0;
+    color: rgb(79, 85, 91);
+}
+
+header p {
+    margin: 0;
+    padding: 0;
+    margin-top: .5vw;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: blue;
+    margin-top: .5vw;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(232, 6, 202);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.artistInput::placeholder {
+    color: red;
+    font-weight: bold;
+    font-size: 1vw;
+}
+
+.albumInput::placeholder {
+    color: red;
+    font-weight: bold;
+    font-size: 1vw;
+}
+
+.songFields input::placeholder {
+    color: red;
+    font-weight: bold;
+    font-size: 1vw; 
+}
+
+.upperLeftSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+}
+
+.rightSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+}
+
+.rightHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2vw;
+    padding-bottom: 0;
+}
+
+.rightHeader * {
+    margin: 0;
+    padding: 0;
+}
+
+.mainLabel {
+    font-weight: bold;
+    font-size: 1.25vw;
+}
+
+.button {
+    background-color: rgb(199, 199, 199);
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1vw;
+    font-weight: 400;
+    margin: 0;
+    padding: .5vw .5vw;
+    cursor: pointer;
+    border-radius: .25vw;
+    border: 1px solid black;
+    box-shadow: .25vw .25vw .125vw 0vw rgba(0,0,0,0.75);
+}
+
+.button:hover {
+    background-color: rgb(145, 145, 145);
+    color: white;
+}
+
+.button:active {
+    transform: translateY(.125vw);
+}
+
+.button:focus {
+    outline-style: none;
+}
+
+input {
+    width: 25vw;
+    height: 2.5vw;
+    padding: 0 .30vw;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.songTitle {
+    text-decoration: underline;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.artistName {
+    font-size: 1vw;
+    margin-top: .25vw;
+    padding-top: 0;
+}
+
+.stanza {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 2vw;
+}
+
+.lyricLine {
+    padding-bottom: .25vw;
+    margin: 0;
+}
+
+.lyrics-p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    margin-top: .5vw;
+}
+
+.leftHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2vw;
+}
+
+.leftHeader * {
+    margin: 0;
+    padding: 0;
+}
+
+.artistCapture {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: .33vw;
+}
+
+.artistCapture label {
+    margin-right: 1vw;
+}
+
+.artistButtons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.albumsButton {
+    margin-right: .5vw;
+} 
+
+.artistFields {
+    margin-bottom: 2vw;
+    width: 30vw;
+}
+
+.artistFields input {
+    font-size: 1vw;
+    padding-left: .5vw;
+    font-weight: 600;
+    width: 26vw;
+}
+
+.albumFields * {
+    margin: 0;
+    padding: 0;
+}
+
+.albumFields {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-bottom: 2vw;
+    width: 30vw;
+}
+
+.albumLabel {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 0.25vw;
+}
+
+.albumLabel span {
+    margin-left: 0.33vw;
+}
+
+.albumFields select {
+    height: 2.5vw;
+    margin-bottom: 0.5vw;
+    width: 30vw;
+}
+
+.albumFields input {
+    width: 30vw;
+    margin-bottom: 0.4vw;
+    font-size: 1vw;
+    padding-left: .5vw;
+    font-weight: 600;
+}
+
+.albumFields button {
+    width: 7vw;
+    padding-top: .25vw;
+    padding-bottom: .25vw;
+}
+
+.songFields * {
+    margin: 0;
+    padding: 0;
+}
+
+.songFields {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-bottom: 2vw;
+    width: 30vw;
+}
+
+.songLabel {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 0.25vw;
+}
+
+.songLabel span {
+    margin-left: 0.33vw;
+}
+
+.songFields select {
+    height: 2.5vw;
+    margin-bottom: 0.5vw;
+    width: 30vw;
+}
+
+.songFields input {
+    width: 30vw;
+    margin-bottom: 0.33vw;
+    font-size: 1vw;
+    padding-left: .5vw;
+    font-weight: 600;
+}
+
+.songFields button {
+    width: 7vw;
+    padding: .5vw .5vw;
+}
+
+.songButtons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5vw;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 28.75vw;
+    margin-left: 1.25vw;
+    padding-left: 0; 
+}
+
+li {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.pGraphsList{
+    list-style-type: circle;
+}
+
+.lineHeight {
+    line-height: 175%;
+    margin-bottom: 1vw;;
+    padding: 0;
+}
+
+.resetButtonDiv {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    height: 7vw;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1));
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    font-size: 1.25vw;
+    margin-left: 5vw;
+}
+
+.socialMediaIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;  
+    margin: 0;
+    margin-right: 5vw;
+}
+
+.socialMediaIcons li {
+    padding-left: 3vw;
+}
+

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>iLyrics | MainPage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="main-h1">iLyrics</h1>
+        <h2>Lyrics for your iTunes Songs</h2>
+        <p>Find out if iTunes has that song you want and then get that song's lyrics.</p>
+        <div class="psuedoNav">
+            <a class="brochureLink" href="index.html">Brochure Page</a>
+            <a href="https://www.apple.com/itunes/">iTunes.com</a> 
+        </div>       
+    </header>
+    <main>
+        <section class="leftSection">
+            <div class="upperLeftSection">
+                <div class="leftHeader">
+                    <h2>Search iTunes</h2>
+                    <p>Use the search tool below to find a song that iTunes offers:</p>
+                </div>
+                <form>
+                    <div class="artistFields">
+                        <div class="artistCapture">
+                            <label class="mainLabel">Artist:</label>
+                            <input class="artistInput" type="text" name="artist" placeholder="Enter an Artist">
+                        </div>
+                        <div class="artistButtons">
+                            <button class="albumsButton button" type="button">Get Albums</button>
+                            <button id="songsButton1" class="button" type="button">Get Songs</button>
+                        </div>
+                    </div>
+                    <div class="albumFields">
+                        <div class="albumLabel">
+                            <label class="mainLabel">Album:</label>
+                            <span>(choose from the dropdown menu)</span>
+                        </div>
+                        <select id="albumDropdownElement" onchange="getSongsFromAlbumSelect(event)">
+                        </select>
+                        <label class="subLabel">Or enter an album name:</label>
+                        <input class="albumInput" type="text" name="album">
+                        <button id="albumSongs" class="button" type="button">Get Album Songs</button>
+                    </div>
+                    <div class="songFields">
+                        <div class="songLabel">
+                            <label class="mainLabel">Song:</label>
+                            <span>(choose from the dropdown menu)</span>
+                        </div>
+                        <select id="songsDropdownElement"></select>
+                        <label class="subLabel">Or enter a song name:</label>
+                        <input id="songInput" type="text" name="song">
+                        <div class="songButtons">
+                            <button id="findSongButt" class="button" type="button">Find Song</button>
+                            <div id="coolLyricsButton"><button id="lyricsButton" class="button">Get Lyrics</button></div>
+                        </div>
+                        <div class="resetButtonDiv">
+                            <input type="button"  id="resetButton" class="button" value="Reset">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <ul>
+                <li id="gotSongParagraph" class="lineHeight"></li>
+                <li id="byArtists" class="lineHeight"></li>
+                <li id="notQuite" class="lineHeight"></li>
+                <li id="enterArtist" class="lineHeight"></li>
+            </ul>
+        </section>
+        <section class="rightSection">
+            <div class="rightHeader">
+                <h1 class="songTitle">Annie's Song</h1>
+                <h2 class="artistName">John Denver</h2>
+            </div>
+            <div class="lyrics-p" class="lineHeight">
+                <div class="stanza">
+                    <p class="lyricLine">You fill up my senses</p>
+                    <p class="lyricLine">Like a night in a forest</p>
+                    <p class="lyricLine">Like the mountains in springtime</p>
+                    <p class="lyricLine">Like a walk in the rain</p>
+                    <p class="lyricLine">Like a storm in the desert</p>
+                    <p class="lyricLine">Like a sleepy blue ocean</p>
+                    <p class="lyricLine">You fill up my senses</p>
+                    <p class="lyricLine">Come fill me again</p>
+                </div>
+                <div class="stanza">
+                    <p class="lyricLine">Come let me love you</p>
+                    <p class="lyricLine">Let me give my life to you</p>
+                    <p class="lyricLine">Let me drown in your laughter</p>
+                    <p class="lyricLine">Let me die in your arms</p>
+                    <p class="lyricLine">Let me lay down beside you</p>
+                    <p class="lyricLine">Let me always be with you</p>
+                    <p class="lyricLine">Come let me love you</p>
+                    <p class="lyricLine">Come love me again</p>
+                </div>
+                <div class="stanza">
+                    <p class="lyricLine">You fill up my senses</p>
+                    <p class="lyricLine">Like a night in a forest</p>
+                    <p class="lyricLine">Like the mountains in springtime</p>
+                    <p class="lyricLine">Like a walk in the rain</p>
+                    <p class="lyricLine">Like a storm in the desert</p>
+                    <p class="lyricLine">Like a sleepy blue ocean</p>
+                    <p class="lyricLine">You fill up my senses</p>
+                    <p class="lyricLine">Come fill me again</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2018 iLyrics. All Rights Reserved.</p>
+        <ul class="socialMediaIcons">
+            <li>
+                <a href="#"><img src="facebookIcon.png" alt="facebook icon" width="50"></a>
+            </li>  
+            <li>
+                <a href="#"><img src="twitterIcon.png" alt="twitter icon" width="50"></a>
+            </li>
+            <li>
+                <a href="#"><img src="instagramIcon.png" alt="instagram icon" width="50"></a>
+            </li>
+        </ul>
+    </footer>
+    <script src="lyrics.js"></script>
+</body>
+</html>

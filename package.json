@@ -1,0 +1,23 @@
+{
+  "name": "galvanize-frontend-app",
+  "version": "1.0.0",
+  "description": "For this project, you will build a light application that reads data, has end-to-end testing, and integrates with an API. The topic is up to you, so pick a project that speaks to your interests.",
+  "main": "lyrics.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simplesNotEZ/galvanize-frontend-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simplesNotEZ/galvanize-frontend-app/issues"
+  },
+  "homepage": "https://github.com/simplesNotEZ/galvanize-frontend-app#readme",
+  "devDependencies": {
+    "cypress": "^3.0.2"
+  }
+}
