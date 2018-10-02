@@ -7,15 +7,23 @@
 
 >For this project, you will build a light application that reads data, has end-to-end testing, and integrates with an API. The topic is up >to you, so pick a project that speaks to your interests.
 
->_Instructions_
->*You should have a brochure page that has information about what your app does and who it's for.
->*Your app should make a GET request to an external API
->*Your app should also pull from a second source of data. This can be another API, another endpoint on the same API, or from a local .json >file
->*You need to write some data transformation that combines the two objects in a meaningful way
->*The resulting data should be dynamically added to the page
->*You should allow a user to change the API end point. For example, get data about a specific movie, weather for a specific zip code, etc
->*Your app should have end-to-end tests
->*Deploy your app
+>Instructions
+
+>You should have a brochure page that has information about what your app does and who it's for.
+
+>Your app should make a GET request to an external API.
+
+>Your app should also pull from a second source of data. This can be another API, another endpoint on the same API, or from a local .json >file.
+
+>You need to write some data transformation that combines the two objects in a meaningful way.
+
+>The resulting data should be dynamically added to the page.
+
+>You should allow a user to change the API end point. For example, get data about a specific movie, weather for a specific zip code, etc.
+
+>Your app should have end-to-end tests.
+
+>Deploy your app.
 
 ## Motivation B
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I love music!  And, what makes music even more rich to me is when I know the lyrics to a song.  So, since I still use iTunes for my music, and since I needed to use two different APIs for this project, voilà--iLyrics.
@@ -23,12 +31,18 @@
 ## Screenshots
 Brochure-page:
 
-![alt text]("iLyrics Brochure-page")
+![alt text](https://github.com/simplesNotEZ/iLyrics/blob/master/iLyrics_brochure.png "iLyrics Brochure-page")
 
 Main-page:
 
-![alt text]("iLyrics Main-page")
+![alt text](https://github.com/simplesNotEZ/iLyrics/blob/master/iLyrics_main.png "iLyrics Main-page")
 
-### Submission
+## Technology Utilized
+HTML5
 
-Add a link to your code [https://github.com/simplesNotEZ/galvanize-frontend-app](#), and your deployed site [https://ilyrics-958ef.firebaseapp.com/](#).
+CSS3 --flex-box
+
+JavaScript
+
+### Online At:
+https://ilyrics-958ef.firebaseapp.com
