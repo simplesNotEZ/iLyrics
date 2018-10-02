@@ -31,11 +31,11 @@
 ## Screenshots
 Brochure-page:
 
-![alt text](https://github.com/simplesNotEZ/iLyrics/blob/master/iLyrics_brochure.png "iLyrics Brochure-page")
+<img src="https://github.com/simplesNotEZ/iLyrics/blob/master/iLyrics_brochure.png" title="brochure-page" width="275" height="200">
 
 Main-page:
 
-![alt text](https://github.com/simplesNotEZ/iLyrics/blob/master/iLyrics_main.png "iLyrics Main-page")
+<img src="https://github.com/simplesNotEZ/iLyrics/blob/master/iLyrics_main.png" title="main-page" width="275" height="200">
 
 ## Technology Utilized
 HTML5
